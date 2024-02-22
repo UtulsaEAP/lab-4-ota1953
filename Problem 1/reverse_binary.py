@@ -9,8 +9,10 @@ Lab Time: THUR 2:00-3:15
 
 def reverse_binary():
     user_num = int(input())
-    if user_num > 0:
-        
+    while user_num >=1:
+        print(user_num%2, end="")
+        user_num //= 2
+
 
 
 if __name__ == "__main__":
