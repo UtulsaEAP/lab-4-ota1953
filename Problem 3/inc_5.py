@@ -11,7 +11,7 @@ def inc_5():
     if first_num > sec_num:
         print("Second integer can't be less than the first.")
     else:
-        for i in range(first_num, sec_num, 5):
+        for i in range(first_num, (sec_num + 1), 5):
             print(i, end=' ')
 
 
