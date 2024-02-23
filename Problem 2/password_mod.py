@@ -6,7 +6,7 @@ Lab Time: THUR 2:00 - 3:15
 """
 
 def password_mod():
-    word = input(str())
+    word = str(input())
     password = ''
     word_list = list(word)
 

@@ -20,7 +20,7 @@ def brute_eq():
     for x in range(-11,11):
         for y in range(-11,11):
             if (a*x + b*y == c and d*x + e*y ==f):
-                print("x =",x,"y =",y)
+                print("x =",x, ",","y =",y)
                 return
     else:
         print("There is no solution")
